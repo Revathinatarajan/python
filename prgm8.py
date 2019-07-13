@@ -1,12 +1,5 @@
-#include <stdio.h>
- 
-void main()
-{
-    int i, num1, sum1 = 0;
-    scanf ("%d", &num1);
-    for (i = 1; i <= num1; i++)
-    {
-        sum1 = sum1 + i;
-    }
-    printf ("%d",sum1);
-}
+m1=int(input())
+a=0
+for j in range(m1+1):
+   a+=j
+print(a)
