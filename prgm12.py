@@ -9,3 +9,4 @@ if(n1==b1):
   print("yes")
 else:
   print("no")
+  
