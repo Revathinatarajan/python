@@ -1,5 +1,5 @@
-str1=input()
-if str1>='a' and str1<='z' or str1>='A' and str1<='Z':
+str2=input()
+if str2>='a' and str2<='z' or str2>='A' and str2<='Z':
   print("Alphabet")
 else:
   print("NO")
