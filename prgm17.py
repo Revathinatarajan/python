@@ -1,11 +1,11 @@
-num1=int(input())
-temp1=num1
-add1=0
-while num1>0:
-    las1t=num1%10
-    add1+=last1**3
-    num1=num1//10
-if add1==temp1:
-    print('yes')
+n1=int(input())
+t1=n1
+sum1=0
+while(n1>0):
+    d1=n1%10
+    sum1=sum1+d1**3
+    n1=n1//10
+if(t1==sum1):
+    print("yes")
 else:
     print('no')
