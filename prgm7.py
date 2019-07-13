@@ -1,3 +1,3 @@
 word="Hello"
-n=int(input())
-print(word*n)
+m=int(input())
+print(word*m)
