@@ -1,9 +1,7 @@
 r=int(input())
-if r%2==0:
-    print('Even')
-elif r>0:
-    if r%2!=0:
-       print("Odd")
+if (r<0):
+  print("invalid")
+elif (r%2==0):
+  print("Even")
 else:
-    print("invalid")
-    
+  print("Odd")
