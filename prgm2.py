@@ -6,3 +6,4 @@ elif r>0:
        print("Odd")
 else:
     print("invalid")
+    
