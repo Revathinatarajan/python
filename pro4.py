@@ -1,12 +1,13 @@
-a1,b1 = map(int,input().split())
-c1 = list(map(int,input().split()))
-d1 = []
-for i in range(0,b1):
-  i = list(map(int,input().split()))
-  d1.append(i)
-for i in d1:
-  e1 = c1[i[0] - 1:i[1]]
-  f1 = e1[0]
-  for j in range(0,len(e1) - 1):
-    f1 = f1 ^ e1[j + 1]
-  print(f1)
+asd1,ssd1=map(int,input().split())
+law1=list(map(int,input().split()))
+asd1=[]
+law1.insert(0,0)
+for p1 in range(ssd1):
+     vim1=[]
+     sha1=0
+     but1,zee1=map(int,input().split())
+     for i in range(but1,zee1+1):         
+         sha1^=law1[i]     
+     asd1.append(sha1)
+for p1 in asd1:
+     print(p1)
