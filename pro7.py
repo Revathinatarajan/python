@@ -1,17 +1,16 @@
-x=input().split()
-x=[int(i) for i in x1]
-k1=x[1]
-flag=False
-l=input().split()
-l=[int(i) for i in l]
-for i in range(0,x[0]):
-  for j in range(i+1,x[0]):
-    t1=l[i]+l1[j]
-    if(t1==k1):
-      flag=True
-      break
-  if(flag):
-    print("yes")
-    break
-if not(flag):
-  print("no")
+num=input()
+a1=list(map(int,num.split()))
+k1=a1[1]
+h1=input()
+flag=0
+s1=list(map(int,h1.split()))
+for i in range(0,len(s1)-1):
+	for j in range(i+1,len(s1)):
+		if s1[i]+s1[j]==k1:
+			print("yes")
+			flag=1
+			break
+	if flag==1:
+		break
+if flag!=1:
+	print("no")
