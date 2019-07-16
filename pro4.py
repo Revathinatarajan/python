@@ -1,13 +1,10 @@
-a1,b1=map(int,input().split())
-lis=list(map(int,input().split()))[:a]
-res=[]
-while(b1):
-    x1=list(map(int,input().split()))
-    res.append(x1)
-    b1=b1-1   
-for i in res:
-    ans=0
-    for j in range(i[0]-1,i[1]):
-       ans=ans^lis[j]
-    print(ans)
+p,q=map(int,input().split())
+lis=list(map(int,input().split()))
+for i in range(q):
+    r,m=map(int,input().split())
+    t1 = l[r-1:m]
+    u1 = t[0]
+    for i in range(1,len(t1)):
+        u1 = u1 ^ t1[i]
+    print(u1)
 
