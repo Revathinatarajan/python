@@ -1,9 +1,12 @@
-p,q=map(int,input().split())
-l=list(map(int,input().split()))
-for i in range(q):
-  r,s=map(int,input().split())
-  t=l[r-1:s]
-  u=t[0]
-  for i in range(1,len(t)):
-    u=u^t[i]
-  print(u)
+a1,b1 = map(int,input().split())
+c1 = list(map(int,input().split()))
+d1 = []
+for i in range(0,b1):
+  i = list(map(int,input().split()))
+  d1.append(i)
+for i in d1:
+  e1 = c1[i[0] - 1:i[1]]
+  f1 = e1[0]
+  for j in range(0,len(e1) - 1):
+    f1 = f1 ^ e1[j + 1]
+  print(f1)
